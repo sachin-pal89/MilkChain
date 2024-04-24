@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "client:install": "npm install --prefix client",
-    "client:start": "npm start --prefix client",
+    "client:start": "npm --openssl-legacy-provider start --prefix client",
     "truffle:compile": "npm run compile --prefix truffle",
     "truffle:install": "npm install --prefix truffle",
     "truffle:migrate": "npm run migrate --prefix truffle",
@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/Karan9034/dopeShop/issues"
   },
-  "homepage": "https://github.com/Karan9034/dopeShop#readme"
+  "homepage": "https://github.com/Karan9034/dopeShop#readme",
+  "dependencies": {
+    "react-router-dom": "^6.23.0"
+  }
 }

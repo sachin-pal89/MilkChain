@@ -1,13 +1,14 @@
 import React from 'react';
 import Identicon from 'identicon.js';
 import { Container, Nav, Navbar } from "react-bootstrap";
+require('dotenv').config();
 
 class SiteNavbar extends React.Component {
     render(){
         return (
             <Navbar collapseOnSelect expand="md" variant="dark" bg='dark' fixed="top" className="site-navbar">
                 <Container>
-                    <Navbar.Brand onClick={()=>this.props.handleNav('products')}>dopeShop</Navbar.Brand>
+                    <Navbar.Brand onClick={()=>this.props.handleNav('products')}>MilkChain</Navbar.Brand>
                     <Nav justify>
                         <Nav.Link onClick={()=>this.props.handleNav('orders')}>
                             <small className='text-secondary'>Orders</small>

@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: UNLICENSED
 pragma solidity 0.8.15;
 
-contract DopeShop {
+contract MilkChain {
     // Default State
     string public name;
     uint128 public productCount=0;
@@ -28,7 +28,7 @@ contract DopeShop {
 
     // Constructor to check successful deployment
     constructor(){
-        name = "dopeShop";
+        name = "MilkChain";
     }
 
 

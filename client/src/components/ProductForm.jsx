@@ -1,5 +1,6 @@
 import React from "react";
 import { Button, Form } from "react-bootstrap";
+require('dotenv').config();
 
 class ProductForm extends React.Component{
     render(){

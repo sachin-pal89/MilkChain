@@ -1,5 +1,6 @@
 import React from "react"
 import { Card } from "react-bootstrap"
+require('dotenv').config();
 
 class OrderList extends React.Component{
     render(){
@@ -8,7 +9,7 @@ class OrderList extends React.Component{
                 {this.props.orders?.map((order, key) => (
                     <div key={key} className="mt-5 mb-5">
                         <Card>
-                            <Card.Img variant="top" src={`${process.env.REACT_APP_INFURA_DEDICATED_GATEWAY}/ipfs/${order.imgHash}`} />
+                            <Card.Img variant="top" src={`${process.env.REACT_GATEWAY_URL}/ipfs/${order.imgHash}`} />
                             <Card.Text as="div">
                                 <div>
                                     <p className="productName">{order.name}</p>

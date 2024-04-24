@@ -3,6 +3,7 @@ import OrderList from './OrderList';
 import SaleList from './SaleList';
 import ProductForm from './ProductForm';
 import ProductList from './ProductList';
+require('dotenv').config();
 
 class Main extends React.Component{
     render(){
