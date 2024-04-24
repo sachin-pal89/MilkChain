@@ -3,10 +3,10 @@
     <img src="https://dyltqmyl993wv.cloudfront.net/assets/stacks/node-exporter/img/node-exporter-stack-110x117.png">
   </a> -->
 
-  <h2 align="center">dopeShop</h2>
+  <h2 align="center">MilkChain</h2>
 
   <p align="center">
-    A local marketplace (like OLX) to buy and sell pre-owned items, but on Web3.
+    A local marketplace for buying and selling dairy products, but on Web3.
   </p>
 </p>
 
@@ -33,7 +33,8 @@
 
 ## ℹ️ About The Project
 
-dopeShop is the Web3 alternative of the famous local marketplace <a href="https://olx.com/">OLX</a>. It is basically a very basic eCommerce platform that gives any user to buy and sell products using a Web3 enabled browser and a wallet. There is a plethora of scope for improvement and features to be added.
+MilkChain revolutionizes the dairy industry by leveraging blockchain technology to introduce transparency, traceability, and trust. It aims to enhance transparency, ensure food safety, mitigate fraud, and optimize supply chain efficiency. Initially targeting a specific geographic region, MilkChain&#39;s modular design allows scalability worldwide. By encompassing all facets of the dairy supply chain and forging strategic partnerships, MilkChain sets new industry standards for a safer, more transparent, and sustainable dairy
+ecosystem.
 
 
 ### 🛠️ Built With
@@ -45,7 +46,7 @@ Following technologies and libraries are used for the development of this projec
 - [Truffle](https://trufflesuite.com/)
 - [Mocha](https://mochajs.org/)
 - [Chai](https://chaijs.com/)
-- [Infura](https://infura.io/)
+- [Pinata](https://www.pinata.cloud/)
 
 <!-- GETTING STARTED -->
 
@@ -74,7 +75,7 @@ npm run truffle:install
 
 3. Now, start a local Ethereum blockchain network on your system using Ganache. Ganache provides you with 10 testing accounts each with 100 ETH. 
 
-4. Obtain Infura API Key and API Secret for IPFS from [Infura Dashboard](https://infura.io/), and create a dedicated gateway for your project. Set the environment variables in `client/.env` file.
+4. Obtain Pinata API Key, JWT Key and API Secret for IPFS from [Pinata Dashboard](https://www.pinata.cloud/), and create a dedicated gateway for your project. Set the environment variables in `client/.env` file.
 
 5. Then, copy the following commands to deploy the smart contracts to the local Ethereum blockchain and start the React app:
 
@@ -87,7 +88,7 @@ npm run client:start
 
 7. Now, obtain the private keys of some of the accounts from Ganache and import the accounts into Metamask wallet.
 
-8. You're ready to go. Visit [http://localhost:3000/](http://localhost:3000/) to check out dopeShop
+8. You're ready to go. Visit [http://localhost:3000/](http://localhost:3000/) to check out MilkChain
 
 <!-- ### 📉 Relevant Screenshots:
 
